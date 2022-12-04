@@ -6,7 +6,7 @@ function Map() {
         <>
             <h1>Map</h1>
             <IframeResizer
-            src="http://127.0.0.1:3000/#close"
+            src="http://app.kandaweather.net:3000/#close"
             style={{width: '1px', minWidth: '100%', height:'100vh'}}
             ></IframeResizer>
         </>
