@@ -1,10 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Team.css";
 import ricardo from "../images/ricardo.jpg";
-import { Parallax } from "react-parallax";
 import './Parallax.css';
-import cayey from "../images/cayey.avif";
 import Nicolas from "../images/Nicolas.jpeg";
 function Team() {
   return (

@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              WET3.0
+              Weather Scout 
               <i class="fa-solid fa-droplet"></i>           
              </Link>
           </div>
-          <small class='website-rights'>WET3.0 © 2022</small>
+          <small class='website-rights'>Weather Scout © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

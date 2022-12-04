@@ -34,7 +34,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                 <Link to ='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    WET3.0<i class="fa-solid fa-droplet"></i>
+                    Weather Scout<i class="fa-solid fa-droplet"></i>
                     </Link> 
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -46,12 +46,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to ='/services' className='nav-links' onClick={closeMobileMenu}>
-                                Services
+                            <Link to ='/Services' className='nav-links' onClick={closeMobileMenu}>
+                                Resiliency Passport
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to ='/Upload' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to ='https://docs.google.com/forms/d/e/1FAIpQLSf7zGfZGEC71ANZpYMpfeLiSDEdC8JnvhojwrKKboNeioYwjg/viewform?usp=sf_link' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Upload
                             </Link>
                         </li>

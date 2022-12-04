@@ -15,7 +15,7 @@ export const Button = ({
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
     return(
-        <Link to ='/auth' className='btn-mobile'>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSf7zGfZGEC71ANZpYMpfeLiSDEdC8JnvhojwrKKboNeioYwjg/viewform?usp=sf_link' className='btn-mobile'>
             <button 
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
@@ -23,6 +23,6 @@ export const Button = ({
             >
                 {children}
             </button>
-        </Link>
+        </a>
     );
 };
